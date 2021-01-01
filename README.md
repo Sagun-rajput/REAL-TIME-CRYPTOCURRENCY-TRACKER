@@ -1,0 +1,2 @@
+# REAL-TIME-CRYPTOCURRENCY-TRACKER
+I’ve built a real-time cryptocurrency (Bitcoin and Ethereum) ticker responsive dashboard. This is developed in ReactJS, a JS library for building user interfaces, Cryptonator API, which provides a unique volume of cryptocurrency exchange rates data delivered in easy-to-integrate JSON format and Fusion Charts, a JavaScript based charting library for data visualization. 
