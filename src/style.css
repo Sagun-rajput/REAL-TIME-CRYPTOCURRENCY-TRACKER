@@ -1,0 +1,210 @@
+body {
+    background-color: white !important;
+    font-family: 'Lato', sans-serif;
+  }
+  .corner{
+    width: 80px;
+    height: 40px;
+    background-color: rgb(236, 233, 233);
+    border: none;
+    float: right ;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+  .search{
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 8px;
+    color:purple;
+    border: 1px solid white;
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+    width: 200px;
+    height: 40px;
+    font-weight: bold;
+    place-content: purple bold;
+    background-color: rgb(236, 233, 233);
+    padding-left: 8px;
+  }
+  .img{
+    border-radius: 50%;
+  }
+  #too{
+    background-color: rgb(236, 233, 233);
+    border: 0px rgb(236, 233, 233);
+    border-radius: 7px;
+    height: 30px;
+    width: 120px;
+    position: fixed;
+    text-align-last: center;
+    margin-top: 70px;
+    padding-top: 5px;
+  }
+  .drop{
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 3px;
+    color: purple;
+    border: 0px white;
+    background-origin: border-box;
+    background-color: rgb(236, 233, 233);
+    margin-top: 10px;
+    height: 40px;
+    font-weight: bold;
+    margin-left: 12px !important;
+    padding-left: 0px;
+  }
+  .head{
+    padding: 0px !important;
+    margin-left: 150px !important;
+    box-shadow: none !important;
+    text-decoration: none !important;
+    color: white;
+    background-color: white;
+  }
+  .mar, .card-body{
+    margin-left: 130px;
+    padding: 0px 20px;
+  }
+  .name{
+    font-size: 37px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-display: capitalize;
+    align-content: left;
+    float: left;
+    margin-left: 0;
+    padding-left: 0px;
+    padding-top: 5px;
+  }
+  .accuracy{
+    background-color: purple;
+    border-radius: 5px;
+    border: 0px purple;
+    color: white !important;
+  }
+  .sidenav{
+    height: 100%;
+    width: 205px;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    left: 0;
+    background-color: white;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-top: 15px;
+    margin-top: 125px;
+    margin-left: 20px;
+  }
+  .nav-item{
+    font-size: 15px !important;
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+    line-height: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #888;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(48, 47, 47);
+  }
+   @media screen and (max-height: 450px){
+     .sidenav{padding-top: 15px;}
+     .sidenav a{font-size: 18px;}
+   }
+  .sidenav a{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: purple;
+    display: block;
+  }
+  .sidenav a:hover{
+    color: green;
+  }
+
+  #tool{
+    margin-left: 0 !important;
+  }
+  .commodityB{
+    float: right;
+    background-color: purple;
+    border: 3px purple solid;
+    border-radius: 2px;
+    width: 160px;
+    color: white;
+    text-align-last: center;
+  }
+  .commodityA{
+    background-color:rgba(212, 31, 55, 0.979);
+    border: 3px rgba(212, 31, 55, 0.979) solid;
+    border-radius: 2px;
+    width: 160px;
+    color: white;
+    margin-right: 0px;
+    text-align-last: center;
+  }
+  .commodityB:hover, .commodityB:single-button{
+    text-decoration: none;
+    border-color: purple;
+  
+  }
+  .commodityA:hover, .commodityA:visited{
+    text-decoration: none;
+    border-color: rgba(212, 31, 55, 0.979);
+  }
+  .navbar {
+    background-color: white !important;
+    box-shadow: 0 8px 14px 0 rgba(123, 120, 120, 0.22);
+  }
+  .navbar-brand {
+    color:purple;
+    font-weight: bold;
+  }
+  .navbar-brand:hover {
+    color: rgba(12, 146, 79, 0.8);
+  }
+  .font-weight-700 {
+    font-weight: 700;
+  }
+  .custom-card {
+    border: 0;
+   
+  }
+  @media (min-width: 576px) {
+    .custom-card-deck .card:last-child {
+      margin-right: 15px !important;
+    }
+  }
+  @media (max-width: 768px) {
+    .navbar-brand, .search {
+      width: 100%;
+      text-align: center;
+      font-size: 1.1em;
+      white-space: normal;
+      margin-left: 10px;
+    }
+  }
+  @media (max-width: 575px) {
+    .mt-xs-4 {
+      margin-top: 2rem !important;
+    }
+    .mb-xs-4 {
+      margin-bottom: 2rem !important;
+    }
+  }
+  .text-primary {
+    color: red !important;
+  }
+  img {
+    opacity: 0.6;
+  }
