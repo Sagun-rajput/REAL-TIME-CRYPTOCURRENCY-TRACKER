@@ -31,6 +31,6 @@ const Header = props => {
   );
 };
 Header.defaultProps = {
-  branding: "Real-Time Cryptocurrency graph"
+  branding: "Real-Time cryptocurrency graph"
 };
 export default Header;
