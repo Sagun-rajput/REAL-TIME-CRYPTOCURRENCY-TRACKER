@@ -1,13 +1,8 @@
 import React, { Component } from 'react';
 import Header from './components/Header';
 import Body from './components/Body';
-//import Body2 from'./components/Body2';
 import  'bootstrap/dist/css/bootstrap.min.css';
 import '../src/style.css';
-
-
-
-
 class App extends Component {
   render() {
     return (
